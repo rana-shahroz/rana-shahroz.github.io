@@ -38,37 +38,25 @@
                 Rana Muhammad Shahroz Khan
               </h1>
               <p>I am a first year PhD student at <a href="https://www.unc.edu">UNC Chapel Hill</a> where I work on Efficient ML and NLP. My PhD
-                advisor is <a href="https://tianlong-chen.github.io">Dr. Tianlong Chen</a>.
+                advisor is <a href="https://tianlong-chen.github.io">Dr. Tianlong Chen</a>. Before that I did my Bachelors in Computer Science and Mathematics from  <a href="https://www.vanderbilt.edu">Vanderbilt University</a>,
+                where I was advised by <a href="https://skolouri.github.io">Dr. Soheil Kolouri></a> and worked in the intersection of Computer Vision and Optimal Transport.
               </p>
               <p>
-                From 2011 to 2017, I worked at <a href="https://www.intel.com">Intel</a>, as part of <a
-                  href="https://www.intelrealsense.com/">Intel RealSense</a>. I primarily designed computer vision
-                algorithms for efficient hardware ASICs, including the Intel RealSense <a
-                  href="https://software.intel.com/en-us/articles/realsense-r200-camera">R200</a> and <a
-                  href="https://software.intel.com/en-us/realsense/d400">D400</a> RGB-D sensors. Additionally, I worked
-                on <a href="https://github.com/IntelRealSense/librealsense">software APIs</a>, <a
-                  href="https://patents.google.com/patent/US9992474B2">active illumination systems</a>, <a
-                  href="https://patents.google.com/patent/US9304597">human-computer interaction devices</a>, and helped
-                develop demos for trade shows, including CES 2012-2016.
-              </p>
-              <p>
-                I have an MS in Computer Science (AI focus) from <a href="http://cs.stanford.edu">Stanford
-                  University</a>, where I was a research assistant for <a href="http://svl.stanford.edu/">Silvio
-                  Savarese</a> and a teaching assistant for <a href="http://svl.stanford.edu/">Fei-Fei Li</a> (<a
-                  href="http://vision.stanford.edu/teaching/cs131_fall1617/">CS131</a> & <a
-                  href="http://cs231n.stanford.edu/2017/">CS231N</a>). I have a BS in EECS from <a
-                  href="http://www.eecs.berkeley.edu/">UC Berkeley</a>, where I worked in <a
-                  href="https://people.eecs.berkeley.edu/~pister/">Kris Pister's</a> lab.
+                During the summer of 2023, I was a Research Intern at <a href="https://www.llnl.gov">Lawrence Livermore National Laboratory</a> in the <a href="https://computing.llnl.gov/casc/machine-intelligence-group">Machine Intelligence Group</a> working under the guidance of 
+                <a href="https://jjthiagarajan.com">Dr. Jay Thiagarajan</a>, <a href="https://people.llnl.gov/liu42">Dr. Shusen Liu</a> and <a href="https://www.rushila.com">Dr. Rushil Anirudh</a> on Bayesian Optimization for Uncertainty Quantification. 
+                In the Summer of 2024, I also had the pleasure of working as a ML Research Intern at <a href="https://www.higharc.com">HighArc</a> under the supervision of <a href="https://www.ardavan.io">Dr. Ardavan Bidgoli</a>
+                and <a href="https://manuelladron.github.io">Dr. Manuel Ladron de Guevara</a>.
               </p>
               <p style="text-align:center">
-                <a target="_blank" href="https://mailhide.io/e/B8TyS"> Email</a> &nbsp;/&nbsp;
-                <a href="https://github.com/leonidk">GitHub</a> &nbsp;/&nbsp;
-                <a href="https://scholar.google.com/citations?user=GCYG4GoAAAAJ">Google Scholar</a> &nbsp;/&nbsp;
-                <a href="https://www.linkedin.com/in/lkeselman"> LinkedIn </a>
+                <a target="_blank" href="mailto:shahroz@cs.unc.edu"> Email</a> &nbsp;/&nbsp;
+                <a href="https://github.com/rana-shahroz">GitHub</a> &nbsp;/&nbsp;
+                <a href="https://scholar.google.com/citations?hl=en&user=pdmMa3UAAAAJ&view_op=list_works&sortby=pubdate">Google Scholar</a> &nbsp;/&nbsp;
+                <a href="https://www.linkedin.com/in/rana-m-shahroz/"> LinkedIn </a>
+                <a href="https://drive.google.com/file/d/1g2wm2w2ZQKxhr6fbikNp3AAXzVqrKnS1/view?usp=sharing"> CV [Updated January 2025]</a>
               </p>
             </td>
             <td style="padding:2.5%;width:40%;max-width:40%">
-              <img style="width:100%;max-width:100%" alt="profile photo" src="images/circle_bw_crop.jpg">
+              <img style="width:100%;max-width:100%" alt="profile photo" src="images/prof_pic.jpg">
             </td>
           </tr>
         </table>
@@ -79,7 +67,7 @@
             <td style="padding:2.5%;width:100%;vertical-align:middle">
               <h2>Research</h2>
               <p>
-                I'm interested in computer vision, machine learning, optimization, graphics and robotics.
+                I'm interested in NLP and Generative AI, with interest in making it efficient. 
               </p>
             </td>
           </tr>
@@ -144,132 +132,7 @@
               </p>
             </td>
           </tr>
-        </table>
-        <table
-          style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-
-          {% for post in site.posts %}
-          {% for cat in post.categories %}
-          {% if cat == 'Intel' %}
-          <tr>
-            <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
-              <img src="/tn{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
-            </td>
-            <td style="padding:2.5%;width:75%;vertical-align:middle">
-              <h3>{{post.title}}</h3>
-              <br>
-              <em>{{post.categories}} {{post.course}}</em>
-              <br>
-              {{ post.date | date: "%Y-%m-%d" }}
-
-              <br>
-              {% if post.website %}
-              <a href="{{post.website}}">website</a> /
-              {% endif %}
-              {% if post.paper %}
-              <a href="{{post.paper}}">paper</a> /
-              {% endif %}
-              {% if post.patent %}
-              <a href="{{post.patent}}">patent</a> /
-              {% endif %}
-              {% if post.patent2 %}
-              <a href="{{post.patent2}}">patent #2</a> /
-              {% endif %}
-              {% if post.patent3 %}
-              <a href="{{post.patent3}}">patent #3</a> /
-              {% endif %}
-              {% if post.video %}
-              <a href="{{post.video}}">video</a> /
-              {% endif %}
-              {% if post.video2 %}
-              <a href="{{post.video2}}">video #2</a> /
-              {% endif %}
-              {% if post.code %}
-              <a href="{{post.code}}">code</a> /
-              {% endif %}
-              {% if post.poster %}
-              <a href="{{post.poster}}">poster</a> /
-              {% endif %}
-              {% if post.slides %}
-              <a href="{{post.slides}}">slides</a> /
-              {% endif %}
-              <p></p>
-              {{ post.excerpt }}
-            </td>
-          </tr>
-          {% endif %}
-          {% endfor %}
-          {% endfor %}
-        </table>
-        <br>
-        <br>
-        <br>
-        <table
-          style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-          <tr>
-            <td style="padding:2.5%;width:100%;vertical-align:middle">
-              <h2>Other Projects</h2>
-              <p> These include coursework, side projects and unpublished research work.
-              </p>
-            </td>
-          </tr>
-        </table>
-        <table
-          style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-
-          {% for post in site.posts %}
-          {% for cat in post.categories %}
-          {% if cat != 'research' and cat != 'Intel' %}
-          <tr>
-            <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
-              <img src="/tn{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
-            </td>
-            <td style="padding:2.5%;width:75%;vertical-align:middle">
-              <h3>{{post.title}}</h3>
-              <br>
-              <em>{{post.categories}} {{post.course}}</em>
-              <br>
-              {{ post.date | date: "%Y-%m-%d" }}
-
-              <br>
-              {% if post.website %}
-              <a href="{{post.website}}">website</a> /
-              {% endif %}
-              {% if post.paper %}
-              <a href="{{post.paper}}">paper</a> /
-              {% endif %}
-              {% if post.patent %}
-              <a href="{{post.patent}}">patent</a> /
-              {% endif %}
-              {% if post.patent2 %}
-              <a href="{{post.patent2}}">patent #2</a> /
-              {% endif %}
-              {% if post.patent3 %}
-              <a href="{{post.patent3}}">patent #3</a> /
-              {% endif %}
-              {% if post.video %}
-              <a href="{{post.video}}">video</a> /
-              {% endif %}
-              {% if post.video2 %}
-              <a href="{{post.video2}}">video #2</a> /
-              {% endif %}
-              {% if post.code %}
-              <a href="{{post.code}}">code</a> /
-              {% endif %}
-              {% if post.poster %}
-              <a href="{{post.poster}}">poster</a> /
-              {% endif %}
-              {% if post.slides %}
-              <a href="{{post.slides}}">slides</a> /
-              {% endif %}
-              <p></p>
-              {{ post.excerpt }}
-            </td>
-          </tr>
-          {% endif %}
-          {% endfor %}
-          {% endfor %}
-        </table>
+          </table>
 
         <table
           style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
