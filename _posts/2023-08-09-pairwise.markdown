@@ -1,14 +1,11 @@
 ---
 layout: post
-title:  "Optimizing Algorithms From Pairwise User Preferences"
-date:   2023-08-09 22:21:59 +00:00
-image: /images/pairwise.png
+title:  "PortLLM: Personalizing Evolving Large Language Models with Training-Free and Portable Model Patches"
+image: /images/portllm.png
 categories: research
-author: "Leo Keselman"
-authors: "<strong>Leonid Keselman</strong>, Katherine Shih, Martial Hebert, Aaron Steinfeld"
-venue: "International Conference on Intelligent Robots and Systems"
-arxiv: https://arxiv.org/abs/2308.04571
-code: https://github.com/leonidk/pairwise
-website: https://leonidk.github.io/pairwise
+author: "Rana Muhammad Shahroz Khan"
+authors: "<strong>Rana Muhammad Shahroz Khan<\strong>, Pingzhi Li*, Sukwon Yun*, Zhenyu Wang, Shahriar Nirjon, Chau-Wai Wong, Tianlong Chen"
+venue: "ICLR 2025"
+arxiv: https://arxiv.org/abs/2410.10870
 ---
-We show how to perform efficient black-box optimization of algorithm configuration from user preferences. Results include Intel RealSense stereo cameras and a robot social navigation policy.
+We show that PORTLLM enables training-free portability of domain-specific knowledge across evolving LLMs with minimal cost and high performance.
