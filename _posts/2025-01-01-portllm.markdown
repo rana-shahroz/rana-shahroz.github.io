@@ -9,4 +9,4 @@ authors: "<strong>Rana Muhammad Shahroz Khan</strong>, Pingzhi Li*, Sukwon Yun*,
 venue: "International Conference on Learning Representations"
 arxiv: https://arxiv.org/abs/2410.10870
 ---
-We show that PORTLLM enables training-free portability of domain-specific knowledge across evolving LLMs with minimal cost and high performance.
+We present PORTLLM, a training-free framework that enables seamless knowledge transfer across evolving LLMs, achieving LoRA-level performance with significantly lower computational costs.

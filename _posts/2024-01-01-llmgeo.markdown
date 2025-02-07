@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "LLMGeo: Benchmarking Large Language Models on Image Geolocation In-the-wild"
+date:   2024-07-21 22:21:59 +00:00
+image: /images/llmgeo.png
+categories: research
+author: "Rana Muhammad Shahroz Khan"
+authors: "Zhiqiang Wang, Dejia Xu, <strong>Rana Muhammad Shahroz Khan</strong>, Yanbin Lin, Zhiwen Fan, Xingquan Zhu"
+venue: "Conference on Computer Vision and Pattern Recognition, Workshop on Computer Vision in the Wild"
+arxiv: https://arxiv.org/abs/2405.20363
+code: https://github.com/yeyimilk/LLMGeo
+---
+We evaluate multimodal LLMs for image geolocation using a new dataset, showing that fine-tuning helps open-source models approach closed-source performance.
