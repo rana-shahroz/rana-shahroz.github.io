@@ -6,7 +6,7 @@ image: /images/lopt.png
 categories: research
 author: "Rana Muhammad Shahroz Khan"
 authors: "Yikun Bai, Ivan Vladimir Medri, Rocio Diaz Martin, <strong>Rana Shahroz</strong>, Soheil Kolouri"
-venue: "International Conference on Machine Learning"
+venue: "International Conference on Machine Learning (ICML)"
 arxiv: https://arxiv.org/abs/2302.03232
 code: https://github.com/yikun-baio/LinearOPT
 ---

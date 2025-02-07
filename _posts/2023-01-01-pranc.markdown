@@ -6,7 +6,7 @@ image: /images/pranc.png
 categories: research
 author: "Rana Muhammad Shahroz Khan"
 authors: "Parsa Nooralinejad, Ali Abbasi, <strong>Rana Muhammad Shahroz Khan</strong>*, Soroush Abbasi Koohpayegani*, Kossar Pourahmadi Meibodi*, Soheil Kolouri, Hamed Pirsiavash;"
-venue: "International Conference on Computer Vision"
+venue: "International Conference on Computer Vision (ICCV)"
 arxiv: https://arxiv.org/abs/2206.08464
 code: https://github.com/UCDvision/PRANC
 ---

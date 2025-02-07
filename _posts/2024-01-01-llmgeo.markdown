@@ -6,7 +6,7 @@ image: /images/llmgeo.png
 categories: research
 author: "Rana Muhammad Shahroz Khan"
 authors: "Zhiqiang Wang, Dejia Xu, <strong>Rana Muhammad Shahroz Khan</strong>, Yanbin Lin, Zhiwen Fan, Xingquan Zhu"
-venue: "Conference on Computer Vision and Pattern Recognition, Workshop on Computer Vision in the Wild"
+venue: "Conference on Computer Vision and Pattern Recognition, Workshop on Computer Vision in the Wild (CVPRW)"
 arxiv: https://arxiv.org/abs/2405.20363
 code: https://github.com/yeyimilk/LLMGeo
 ---
