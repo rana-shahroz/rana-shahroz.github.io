@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Linear Optimal Partial Transport Embedding"
+date:   2023-07-21 22:21:59 +00:00
+image: /images/lopt.png
+categories: research
+author: "Rana Muhammad Shahroz Khan"
+authors: "Yikun Bai, Ivan Vladimir Medri, Rocio Diaz Martin, <strong>Rana Shahroz</strong>, Soheil Kolouri"
+venue: "International Conference on Machine Learning"
+arxiv: https://arxiv.org/abs/2302.03232
+code: https://github.com/yikun-baio/LinearOPT
+---
+We propose the Linear Optimal Partial Transport (LOPT) embedding, enabling faster OPT distance computation and demonstrating its effectiveness in point-cloud interpolation and PCA analysis.
