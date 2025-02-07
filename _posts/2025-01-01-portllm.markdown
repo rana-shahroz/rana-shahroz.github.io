@@ -2,7 +2,7 @@
 layout: post
 title:  "PortLLM: Personalizing Evolving Large Language Models with Training-Free and Portable Model Patches"
 date:   2025-01-01 22:21:59 +00:00
-image: /images/exp2.jpg
+image: /images/portllm.jpg
 categories: research
 author: "Rana Muhammad Shahroz Khan"
 authors: "<strong>Rana Muhammad Shahroz Khan</strong>, Pingzhi Li*, Sukwon Yun*, Zhenyu Wang, Shahriar Nirjon, Chau-Wai Wong, Tianlong Chen"
