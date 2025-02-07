@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "PRANC: Pseudo RAndom Networks for Compacting Deep Models"
+date:   2023-07-21 22:21:59 +00:00
+image: /images/pranc.png
+categories: research
+author: "Rana Muhammad Shahroz Khan"
+authors: "Parsa Nooralinejad, Ali Abbasi, <strong>Rana Muhammad Shahroz Khan</strong>*, Soroush Abbasi Koohpayegani*, Kossar Pourahmadi Meibodi*, Soheil Kolouri, Hamed Pirsiavash;"
+venue: "International Conference on Computer Vision"
+arxiv: https://arxiv.org/abs/2206.08464
+code: https://github.com/UCDvision/PRANC
+---
+We propose PRANC, a framework that reparametrizes deep models as a linear combination of frozen random networks, enabling extreme compression, efficient storage, and memory-efficient inference.
