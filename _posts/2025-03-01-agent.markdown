@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Agents Under Siege: Breaking Pragmatic Multi-Agent LLM Systems with Optimized Prompt Attacks"
+date:   2025-03-01 22:21:59 +00:00
+image: /images/agent.png
+categories: research
+author: "Rana Muhammad Shahroz Khan"
+authors: "<strong>Rana Muhammad Shahroz Khan</strong>, Zhen Tan, Sukwon Yun, Charles Fleming, Tianlong Chen"
+venue: "Preprint"
+arxiv: https://arxiv.org/abs/2504.00218
+---
+Agents Under Siege introduces a flow‑optimized, order‑agnostic prompt attack that stealthily threads limited‑bandwidth, high‑latency multi‑agent LLM networks to jailbreak target models, overwhelming modern safety guards and boosting attack success up to seven‑fold.
