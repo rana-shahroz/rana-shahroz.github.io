@@ -6,7 +6,7 @@ image: /images/agent.png
 categories: research
 author: "Rana Muhammad Shahroz Khan"
 authors: "<strong>Rana Muhammad Shahroz Khan</strong>, Zhen Tan, Sukwon Yun, Charles Fleming, Tianlong Chen"
-venue: "Association for Computational Linguistics (ACL), 2025"
+venue: "Association for Computational Linguistics (ACL)"
 arxiv: https://arxiv.org/abs/2504.00218
 ---
 Agents Under Siege introduces a flow‑optimized, order‑agnostic prompt attack that stealthily threads limited‑bandwidth, high‑latency multi‑agent LLM networks to jailbreak target models, overwhelming modern safety guards and boosting attack success up to seven‑fold.
