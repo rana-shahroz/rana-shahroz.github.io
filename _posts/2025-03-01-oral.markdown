@@ -6,7 +6,7 @@ image: /images/oral.png
 categories: research
 author: "Rana Muhammad Shahroz Khan"
 authors: "<strong>Rana Muhammad Shahroz Khan</strong>, Dongwen Tang, Pingzhi Li, Kai Wang, Tianlong Chen"
-venue: "Preprint"
+venue: "Conference on Empirical Methods in Natural Language Processing (EMNLP), Findings"
 arxiv: https://arxiv.org/abs/2503.24354
 ---
 ORAL leverages conditional recurrent diffusion to instantly craft task‑tuned LoRA adapters that scale to billion‑parameter models, remain compatible with future model updates, and rival—or beat—full fine‑tuning accuracy. 

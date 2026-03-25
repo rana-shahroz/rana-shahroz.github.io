@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "The Quest for Efficient Reasoning: A Data-Centric Benchmark to CoT Distillation"
+date:   2026-01-01 22:21:59 +00:00
+image: /images/quest.png
+categories: research
+author: "Rana Muhammad Shahroz Khan"
+authors: "Ruichen Zhang*, <strong>Rana Muhammad Shahroz Khan</strong>*, Zhen Tan, Dawei Li, Song Wang, Tianlong Chen"
+venue: "International Conference on Learning Representations (ICLR)"
+arxiv: https://arxiv.org/abs/2505.18759
+---
+We present a comprehensive benchmark (DC-CoT) that systematically shows data-centric strategies, especially augmentation like reverse reasoning, are the most effective way to distill strong reasoning abilities into smaller LLMs.
