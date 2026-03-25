@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "CAR-LoRA: Training Compression-Aware and Robust LoRA Adapters for Evolving LLMs"
+date:   2026-01-01 22:21:59 +00:00
+image: /images/car.jpg
+categories: research
+author: "Rana Muhammad Shahroz Khan"
+authors: "<strong>Rana Muhammad Shahroz Khan</strong>, Zhen Tan, Ruichen Zhang, Hua Wei, Tianlong Chen, Charles Fleming"
+venue: "International Conference on Learning Representations (ICLR)"
+arxiv: https://openreview.net/forum?id=5GimteSrgW
+---
+We present a unified training framework (CAR-LoRA) that learns a single compression-aware and temporally robust LoRA adapter, eliminating the need to retrain separate adapters across different hardware compressions and evolving LLM versions.

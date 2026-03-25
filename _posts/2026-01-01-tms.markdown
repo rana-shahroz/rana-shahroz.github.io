@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "TMS: Trajectory-Mixed Supervision for Reward-Free, On-Policy SFT"
+date:   2026-01-01 22:21:59 +00:00
+image: /images/tms.jpg
+categories: research
+author: "Rana Muhammad Shahroz Khan"
+authors: "<strong>Rana Muhammad Shahroz Khan</strong>, Zijie Liu, Zhen Tan, Charles Fleming, Tianlong Chen"
+venue: "Preprint"
+arxiv: https://arxiv.org/abs/2602.03073
+---
+We present a simple, drop-in SFT replacement that recovers RL-like retention by training on trajectory-mixed, near-policy targets instead of static labels—eliminating reward models while preventing forgetting.
