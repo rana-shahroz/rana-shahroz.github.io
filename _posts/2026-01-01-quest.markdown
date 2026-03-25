@@ -2,7 +2,7 @@
 layout: post
 title:  "The Quest for Efficient Reasoning: A Data-Centric Benchmark to CoT Distillation"
 date:   2026-01-01 22:21:59 +00:00
-image: /images/quest.png
+image: /images/quest.jpg
 categories: research
 author: "Rana Muhammad Shahroz Khan"
 authors: "Ruichen Zhang*, <strong>Rana Muhammad Shahroz Khan</strong>*, Zhen Tan, Dawei Li, Song Wang, Tianlong Chen"
